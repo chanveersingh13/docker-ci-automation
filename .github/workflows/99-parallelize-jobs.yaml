@@ -236,7 +236,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v6
         with:
-          images: bretfisher/docker-ci-automation,ghcr.io/bretfisher/docker-ci-automation
+          images: chanveersingh9/docker-ci-automation,ghcr.io/chanveersingh9/docker-ci-automation
           flavor: |
             latest=false
           tags: |
